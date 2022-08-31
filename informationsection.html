@@ -15,6 +15,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="calculator.js"></script>
 </head>
 <body>
 
@@ -181,7 +182,7 @@
     </div>
     <div class="form-group">
       <label for="heater">How long do you take to shower? (In minutes)</label>
-      <input type="number" class="form-control" id="heater" placeholder="Water Heater uptime" name="heater">
+      <input type="number" class="form-control" id="shower" placeholder="Shower uptime" name="shower">
     </div>
     <div class="form-group">
       <label for="lights">How long do you switch on your lights and fans for in total? (In hours)</label>
@@ -191,7 +192,7 @@
       <label for="fans">How long do you switch on your fans for ? (In hours)</label>
       <input type="number" class="form-control" id="fans" placeholder="Fans uptime" name="fans">
     </div>
-    <button type="submit" class="btn btn-default">Submit</button>
+    <button type="submit" class="btn btn-default" onclick="formDone()" formaction="#">Submit</button>
   </form>
 </div>
 
