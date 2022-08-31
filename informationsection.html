@@ -216,8 +216,12 @@
 </div>
 
 <div class="form-container">
-
-    <form action="">
+<script type="text/javascript">
+    function pledge(){
+      document.getElementById("pledge").innerHTML = "Thank you for your donation! Have a great day ahead!"
+    }
+</script>
+<form class="" action="" method="get">
 
         <div class="inputBox">
             <input type="text" placeholder="first name">
@@ -227,7 +231,7 @@
         <div class="inputBox">
             <input type="email" placeholder="enter your email">
             <select name="" id="">
-                <option value="" selected disabled>donation amount</option>
+                <option value="" selected disabled>Donation amount</option>
                 <option value="$5">$5</option>
                 <option value="$10">$10</option>
                 <option value="$15">$15</option>
@@ -237,9 +241,9 @@
 
         <textarea name="" id="" cols="30" rows="10" placeholder="message ( optional )"></textarea>
 
-        <input type="submit" class="btn">
-
-    </form>
+        <input type="submit" onclick="pledge()" class="btn">
+</form>
+    <span id="pledge" style="color: white; text-align: center;"></span>
 
 </div>
 
