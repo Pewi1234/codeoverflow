@@ -284,6 +284,13 @@ header .fa-bars{
 .project {
   color: white;
 }
+.calcwrapper {
+  border-style: solid;
+  border-width: 3px;
+  background-color: white;
+  width: 100px;
+  length: 300px;
+}
 
 .project .box-container{
     display: flex;
