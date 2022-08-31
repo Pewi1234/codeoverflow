@@ -13,6 +13,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="calculator.js"></script>
 </head>
 <body>
 
@@ -172,14 +173,14 @@
 <div class="box-container">
   <div class="container">
     <h2>Key in the energy usages of some household appliances for a day!</h2>
-    <form action="/action_page.php">
+    <form>
     <div class="form-group">
       <label for="aircon">How many hours do you turn on your Air Conditioner(s) for in total? </label>
       <input type="number" class="form-control" id="aircon" placeholder="Air Conditioner uptime" name="aircon">
     </div>
     <div class="form-group">
       <label for="heater">How long do you take to shower? (In minutes)</label>
-      <input type="number" class="form-control" id="heater" placeholder="Water Heater uptime" name="heater">
+      <input type="number" class="form-control" id="shower" placeholder="Water Heater uptime" name="heater">
     </div>
     <div class="form-group">
       <label for="lights">How long do you switch on your lights for? (In hours)</label>
@@ -189,7 +190,7 @@
       <label for="fans">How long do you switch on your Fan(s) for? (In hours)</label>
       <input type="number" class="form-control" id="fans" placeholder="Fans uptime" name="fans">
     </div>
-    <button type="submit" class="btn btn-default">Submit</button>
+    <button type="submit" class="btn btn-default" onclick="formDone()">Submit</button>
   </form>
 </div>
 
