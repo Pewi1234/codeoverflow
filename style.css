@@ -281,6 +281,9 @@ header .fa-bars{
 .project .heading{
     color:#fff;
 }
+.project {
+  color: white;
+}
 
 .project .box-container{
     display: flex;
