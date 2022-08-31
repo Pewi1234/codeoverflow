@@ -5,7 +5,7 @@ function formDone() {
   var lightTime = parseInt(document.getElementById("lights").value);
 
   //Aircon calculate 1ac-> 2.5kw
-  var airconCost = (2.5 * airconTime * cost) / 100;
+  var airconCost = 2.5 * airconTime * cost;
   console.log(airconCost);
 
   //shower calculate
@@ -18,6 +18,7 @@ function formDone() {
 
   //light calculate
   var lightEnergy = 60/1000 * lightTime * 17;
-  console.log(lightEnergy);
   var lightCost = lightEnergy * cost;
+  lightCost = lightCost.toFixed(2);
+  console.log(lightCost);
 }
