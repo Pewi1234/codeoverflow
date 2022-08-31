@@ -1,10 +1,12 @@
 function formDone() {
+  const cost = 32.38/100;
   var airconTime = parseInt(document.getElementById("aircon").value);
   var showerTime = parseInt(document.getElementById("shower").value);
+  var lightTime = parseInt(document.getElementById("lights").value);
 
   //Aircon calculate 1ac-> 2.5kw
-  var airconConsump = (2.5 * airconTime * 32.28) / 100;
-  console.log(airconConsump);
+  var airconCost = (2.5 * airconTime * cost) / 100;
+  console.log(airconCost);
 
   //shower calculate
   var showerCo2 = showerTime * 0.204;
@@ -13,4 +15,9 @@ function formDone() {
   var showerEnergy = showerTime * 0.168;
   showerEnergy = showerEnergy.toFixed(2);
   console.log(showerEnergy);
+
+  //light calculate
+  var lightEnergy = 60/1000 * lightTime * 17;
+  console.log(lightEnergy);
+  var lightCost = lightEnergy * cost;
 }
