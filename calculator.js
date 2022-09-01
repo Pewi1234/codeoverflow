@@ -1,7 +1,7 @@
 function printForm() {
   document.getElementById("form").style.display = "none";
   document.getElementById("shit").style.display = "block";
-  //document.getElementById("form").innerHTML = "shit";
+  
 }
 
 
