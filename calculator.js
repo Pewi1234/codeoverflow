@@ -35,18 +35,18 @@ function doneForm() {
   //Adding the data to the table
   document.getElementById("airconconsumption").innerText=airconEnergy.toFixed(2)+"kWh";
   document.getElementById("airconco2").innerText=(airconEnergy*0.40).toFixed(2)+"kg";
-  document.getElementById("airconachieve").innerText="You can reduce your footprint by setting your aircon temperature not less than 25 degrees";
+  document.getElementById("airconachieve").innerText="You can reduce your carbon footprint by setting your aircon temperature not less than 25 degrees";
   document.getElementById("heaterconsumption").innerText=showerEnergy+"kWh";
   document.getElementById("heaterco2").innerText=(showerEnergy*0.40).toFixed(2)+"kg";
-  document.getElementById("heaterachieve").innerText="You can reduce your footprint by taking showers not longer than 5 minutes";
+  document.getElementById("heaterachieve").innerText="You can reduce your carbon footprint by taking showers not longer than 5 minutes";
   document.getElementById("lightsconsumption").innerText=lightEnergy.toFixed(2)+"kWh"; //
   document.getElementById("lightsco2").innerText=(lightEnergy*0.40).toFixed(2)+"kg"; //
-  document.getElementById("lightsachieve").innerText="You can reduce your footprint by turning off the lights when they nobody is in that particular room"; //
+  document.getElementById("lightsachieve").innerText="You can reduce your carbon footprint by turning off the lights when they nobody is in that particular room"; //
   document.getElementById("heaterco2").innerText=(showerEnergy*0.40).toFixed(2)+"kg";//
   document.getElementById("lightsconsumption").innerText=lightEnergy.toFixed(2)+"kWh"; //
   document.getElementById("lightsco2").innerText=(lightEnergy*0.40).toFixed(2)+"kg"; //
   document.getElementById("fansconsumption").innerText=fanEnergy+"kWh";//
   document.getElementById("fansco2").innerText=(fanEnergy*0.40).toFixed(2)+"kg";//
-  document.getElementById("fansachieve").innerText="You can reduce your footprint by turning off the fans when nobody is using it";
+  document.getElementById("fansachieve").innerText="You can reduce your carbon footprint by turning off the fans when nobody is using it";
 
 }
