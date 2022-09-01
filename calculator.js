@@ -40,7 +40,6 @@ function doneForm() {
   document.getElementById("airconco2").innerText=(airconEnergy*0.40)+"kg";
   document.getElementById("heaterconsumption").innerText=showerEnergy+"kWh";
   document.getElementById("heaterc02").innerText=(showerEnergy*0.40)+"kg";
-  //document.getElementById("heaterachieve").innerText=;
   document.getElementById("lightsconsumption").innerText=lightEnergy+"kWh"; //
   document.getElementById("lightsco2").innerText=(lightEnergy*0.40)+"kg"; //
   document.getElementById("lightsachieve").innerText=airconEnergy+"kWh"; //
