@@ -288,15 +288,23 @@
 <section class="post" id="post">
 <link rel="stylesheet" href="game.css">
 
-<!-- <h1 class="heading"></i>Try out our Mini-Game!</h1>
+<h1 class="heading"></i>Try out our Mini-Game!</h1>
 
-<div class="box-container">
-  <div class="game">
-      <div id="character"><img src="C:\Users\Xavier\Documents\School\NYP\Code Overflow\chrome-trex-dinosaur (1).jpg" alt=""></div>
-      <div id="block"><img src="C:\Users\Xavier\Documents\School\NYP\Code Overflow\istockphoto-1182574914-170667a (1).jpg" alt=""></div>
+  <div class="startstop" style="text-align: center;">
+    <p>Press Play to start!</p>
+    <button class="btn btn-default" onclick="myPlayFunction()">Play</button>
   </div>
-  <p>Score: <span id="scoreSpan"></span></p>
-<script type="text/javascript" src="game.js"></script> -->
+
+  <div class="game" onclick="jump()">
+    <div id="character"><img src="C:\Users\Xavier\Documents\School\NYP\Code Overflow\chrome-trex-dinosaur (1).jpg" alt=""></div>
+    <div id="block" style="display: none;"><img src="C:\Users\Xavier\Documents\School\NYP\Code Overflow\istockphoto-1182574914-170667a (1).jpg" alt=""></div>
+  </div>
+  <div class="score" style="text-align: center;">
+    <p>Score: <span id="scoreSpan"></span></p>
+    <button class="btn btn-default" type="button" id="again" onclick="reload()" style="display: none;"></button>
+  </div>
+
+<script type="text/javascript" src="game.js"></script>
 </section>
 
 <!-- post section ends -->
