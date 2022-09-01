@@ -256,10 +256,10 @@
 <div class="form-container">
 <script type="text/javascript">
     function pledge(){
-      document.getElementById("pledge").innerHTML = "Thank you for your donation! Have a great day ahead!"
+      document.getElementById("pledge").innerText = "Thank you for your donation! Have a great day ahead!"
     }
 </script>
-<form class="" action="" method="get">
+<form class="pledge" action="" method="get">
 
         <div class="inputBox">
             <input type="text" id="name" placeholder="first name">
@@ -279,9 +279,12 @@
 
         <textarea name="" id="message" cols="30" rows="10" placeholder="message ( optional )"></textarea>
 
-        <input type="submit" onclick="pledge()" class="btn">
 </form>
-    <span id="pledge" style="color: white; text-align: center;"></span>
+<div class="butt" style="text-align: center;">
+  <button type="submit" onclick="pledge()" class="btn" style="background-color: white; margin: auto;">Submit</button>
+  <span id="pledge" style="color: white; text-align: center;"></span>
+</div>
+
 
 </div>
 
