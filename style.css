@@ -284,13 +284,7 @@ header .fa-bars{
 .project {
   color: white;
 }
-.calcwrapper {
-  border-style: solid;
-  border-width: 3px;
-  background-color: white;
-  width: 100px;
-  length: 300px;
-}
+
 
 .project .box-container{
     display: flex;
@@ -621,7 +615,6 @@ header .fa-bars{
     }
 
     .home .content h1{
-        font-family: 'Secular One', sans-serif;
         font-size: 5rem;
     }
 
