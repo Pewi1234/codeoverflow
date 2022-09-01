@@ -1,6 +1,6 @@
-function formDone() {
+function doneForm() {
   document.getElementById("form").style.display = "none";
-  document.getElementById("shit").style.display = "block";
+  document.getElementById("tabel").style.display = "block";
   const cost = 32.38/100;
   var airconTime = parseInt(document.getElementById("aircon").value);
   var showerTime = parseInt(document.getElementById("shower").value);
@@ -38,16 +38,14 @@ function formDone() {
   //Adding the data to the table
   document.getElementById("airconconsumption").innerText=airconEnergy;
   document.getElementById("airconco2").innerText=(airconEnergy*0.40)+"kg";
-  document.getElementById("airconachieve").innerText=;
+  //document.getElementById("airconachieve").innerText=;
   document.getElementById("heaterconsumption").innerText=showerEnergy;
   document.getElementById("heaterc02").innerText=(showerEnergy*0.40)+"kg";
-  document.getElementById("heaterachieve").innerText=;
+  //document.getElementById("heaterachieve").innerText=;
   document.getElementById("lightsconsumption").innerText=lightEnergy;
   document.getElementById("lightsco2").innerText=(lightEnergy*0.40)+"kg";
   document.getElementById("lightsachieve").innerText=airconEnergy;
   document.getElementById("fansconsumption").innerText=fanEnergy;
   document.getElementById("fansco2").innerText=(fanEnergy*0.40)+"kg";
-  document.getElementById("fansachieve").innerText=;
-
-
+  //document.getElementById("fansachieve").innerText=;
 }
