@@ -1,3 +1,8 @@
+function printForm() {
+
+}
+
+
 function formDone() {
   const cost = 32.38/100;
   var airconTime = parseInt(document.getElementById("aircon").value);
