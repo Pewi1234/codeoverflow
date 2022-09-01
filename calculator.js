@@ -1,7 +1,7 @@
 function printForm() {
   document.getElementById("form").style.display = "none";
   document.getElementById("shit").style.display = "block";
-  
+
 }
 
 
@@ -15,7 +15,8 @@ function formDone() {
   var fanNumber = parseInt(document.getElementById("fan-number").value); //num of fans
 
   //Aircon calculate 1ac-> 2.5kw
-  var airconCost = 2.5 * airconTime * cost * 30;
+  var airconEnergy = 2.5 * airconTime;
+  var airconCost = airconEnergy * cost * 30;
   airconCost = airconCost.toFixed(2); //
   console.log(airconCost);
 
