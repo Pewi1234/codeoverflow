@@ -141,11 +141,14 @@ header .fa-bars{
 .home .content{
     text-align: center;
     padding:1rem;
+    font-family: "Fira Sans", sans-serif;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
 }
 
 .home .content h1{
     font-size: 7rem;
-    color:var(--green);
+    color: white;
 }
 
 .home .content p{
@@ -635,4 +638,23 @@ header .fa-bars{
     .donate .form-container form{
         width: 90%;
     }
+}
+
+.extra{
+  position: relative;
+  text-align: left;
+  color: white;
+}
+.topleft{
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  padding-left: 20px;
+}
+.topleft h2{
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 800%;
+}
+.topleft p{
+  font-size: 150%
 }
