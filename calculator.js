@@ -41,7 +41,7 @@ function doneForm() {
   document.getElementById("heaterachieve").innerText="You can reduce your carbon footprint by taking showers not longer than 5 minutes";
   document.getElementById("lightsconsumption").innerText=lightEnergy.toFixed(2)+"kWh"; //
   document.getElementById("lightsco2").innerText=(lightEnergy*0.40).toFixed(2)+"kg"; //
-  document.getElementById("lightsachieve").innerText="You can reduce your carbon footprint by turning off the lights when they nobody is in that particular room"; //
+  document.getElementById("lightsachieve").innerText="You can reduce your carbon footprint by turning off the lights when nobody is in that particular room"; //
   document.getElementById("heaterco2").innerText=(showerEnergy*0.40).toFixed(2)+"kg";//
   document.getElementById("lightsconsumption").innerText=lightEnergy.toFixed(2)+"kWh"; //
   document.getElementById("lightsco2").innerText=(lightEnergy*0.40).toFixed(2)+"kg"; //
