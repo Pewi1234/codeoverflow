@@ -36,18 +36,18 @@ function formDone() {
   fanCost = fanCost.toFixed(2); //
 
   //Adding the data to the table
-  document.getElementById("airconconsumption").innerText=airconEnergy;
-  document.getElementById("airconco2").innerText=(airconEnergy*0.40)+"kg";
-  document.getElementById("airconachieve").innerText=;
-  document.getElementById("heaterconsumption").innerText=showerEnergy;
-  document.getElementById("heaterc02").innerText=(showerEnergy*0.40)+"kg";
-  document.getElementById("heaterachieve").innerText=;
-  document.getElementById("lightsconsumption").innerText=lightEnergy;
-  document.getElementById("lightsco2").innerText=(lightEnergy*0.40)+"kg";
-  document.getElementById("lightsachieve").innerText=airconEnergy;
-  document.getElementById("fansconsumption").innerText=fanEnergy;
-  document.getElementById("fansco2").innerText=(fanEnergy*0.40)+"kg";
-  document.getElementById("fansachieve").innerText=;
+  // document.getElementById("airconconsumption").innerText=airconEnergy;
+  // document.getElementById("airconco2").innerText=(airconEnergy*0.40)+"kg";
+  // document.getElementById("airconachieve").innerText=;
+  // document.getElementById("heaterconsumption").innerText=showerEnergy;
+  // document.getElementById("heaterc02").innerText=(showerEnergy*0.40)+"kg";
+  // document.getElementById("heaterachieve").innerText=;
+  // document.getElementById("lightsconsumption").innerText=lightEnergy;
+  // document.getElementById("lightsco2").innerText=(lightEnergy*0.40)+"kg";
+  // document.getElementById("lightsachieve").innerText=airconEnergy;
+  // document.getElementById("fansconsumption").innerText=fanEnergy;
+  // document.getElementById("fansco2").innerText=(fanEnergy*0.40)+"kg";
+  // document.getElementById("fansachieve").innerText=;
 
 
 }
