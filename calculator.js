@@ -40,11 +40,17 @@ function doneForm() {
   document.getElementById("airconco2").innerText=(airconEnergy*0.40)+"kg";
   document.getElementById("airconachieve").innerText="You can reduce your footprint by setting your aircon temperature not less than 25 degrees";
   document.getElementById("heaterconsumption").innerText=showerEnergy+"kWh";
+<<<<<<< HEAD
   document.getElementById("heaterco2").innerText=(showerEnergy*0.40)+"kg";
   document.getElementById("heaterachieve").innerText="You can reduce your footprint by taking showers not longer than 5 minutes";
   document.getElementById("lightsconsumption").innerText=lightEnergy+"kWh"; //
   document.getElementById("lightsco2").innerText=(lightEnergy*0.40)+"kg"; //
   document.getElementById("lightsachieve").innerText="You can reduce your footprint by turning off the lights when they nobody is in that particular room"; //
+=======
+  document.getElementById("heaterc02").innerText=(showerEnergy*0.40)+"kg";//
+  document.getElementById("lightsconsumption").innerText=lightEnergy+"kWh"; //
+  document.getElementById("lightsco2").innerText=(lightEnergy*0.40)+"kg"; //
+>>>>>>> e9f6ab96af2d21699eadbb8fc3f6984c16b3846d
   document.getElementById("fansconsumption").innerText=fanEnergy+"kWh";//
   document.getElementById("fansco2").innerText=(fanEnergy*0.40)+"kg";//
   document.getElementById("fansachieve").innerText="You can reduce your footprint by turning off the fans when nobody is using it";
