@@ -9,7 +9,7 @@ function doneForm() {
   var fanNumber = parseInt(document.getElementById("fan-number").value); //num of fans
 
   //Aircon calculate 1ac-> 2.5kw
-  var airconEnergy = 2.5 * airconTime;
+  var airconEnergy = 2.5 * airconTime * 4;
   var airconCost = airconEnergy * cost * 30;
   airconCost = airconCost.toFixed(2);
 
