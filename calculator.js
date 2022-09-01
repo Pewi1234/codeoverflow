@@ -1,9 +1,12 @@
 function printForm() {
-
+  document.getElementById("form").style.display = "none";
+  document.getElementById("shit").style.display = "block";
+  //document.getElementById("form").innerHTML = "shit";
 }
 
 
 function formDone() {
+  printForm();
   const cost = 32.38/100;
   var airconTime = parseInt(document.getElementById("aircon").value);
   var showerTime = parseInt(document.getElementById("shower").value);
